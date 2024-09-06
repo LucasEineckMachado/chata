@@ -8,7 +8,7 @@ document.getElementById('message1').addEventListener('click', function() {
 });
 
 document.getElementById('message2').addEventListener('click', function() {
-    document.getElementById('output').textContent = 'Cada momento com você é especial!';
+    document.getElementById('output').textContent = 'olha minha maluquinha que amo não me mata!❤️';
     document.getElementById('defaultGif').classList.add('hidden');
     document.getElementById('gif1').classList.add('hidden');
     document.getElementById('gif2').classList.remove('hidden');
