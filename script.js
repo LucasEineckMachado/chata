@@ -17,7 +17,7 @@ document.getElementById('message2').addEventListener('click', function() {
 });
 
 document.getElementById('message3').addEventListener('click', function() {
-    document.getElementById('output').textContent = 'Seu sorriso ilumina o meu dia!';
+    document.getElementById('output').textContent = 'Olha esse olhar boiolinha que amo💖!';
     document.getElementById('defaultGif').classList.add('hidden');
     document.getElementById('gif1').classList.add('hidden');
     document.getElementById('gif2').classList.add('hidden');
