@@ -1,3 +1,4 @@
+/* Estilos Gerais */
 body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
@@ -8,45 +9,49 @@ body {
     margin: 0;
 }
 
-.container {
+/* Container de Login */
+.login-container {
     text-align: center;
     background: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 400px;
 }
 
-button {
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #ff66b2;
+}
+
+.login-container input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-container button {
     background-color: #ff66b2;
     border: none;
     color: white;
     padding: 10px 20px;
-    margin: 10px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
 }
 
-button:hover {
+.login-container button:hover {
     background-color: #ff3399;
-}
-
-p {
-    font-size: 20px;
-    color: #333;
-}
-
-.gifs {
-    margin-bottom: 20px;
-}
-
-.gifs img {
-    width: 200px; /* Ajuste o tamanho dos GIFs aqui */
-    height: 200px; /* Ajuste o tamanho dos GIFs aqui */
-    margin: 10px;
-    border-radius: 10px;
 }
 
 .hidden {
     display: none;
+}
+
+#loginError {
+    color: red;
+    margin-top: 10px;
 }
