@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     // Verificação simples (deve ser feita no servidor para mais segurança)
     if (username === 'Lyt28383' && password === '05052005') {
-        window.location.href = 'index.html'; // Redireciona para a página principal
+        window.location.href = 'Index.html'; // Redireciona para a página principal
     } else {
         document.getElementById('loginError').classList.remove('hidden');
     }
